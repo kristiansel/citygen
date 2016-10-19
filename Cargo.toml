@@ -1,6 +1,7 @@
 [package]
 name = "citygen"
 version = "0.1.0"
-authors = ["magnusgohn"]
+authors = ["monkeybits", "magnusgohn"]
 
 [dependencies]
+rand = "0.3"
