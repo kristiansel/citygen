@@ -19,6 +19,6 @@ fn main() {
         vec.push(rng.gen::<f64>());
     }
     for i in vec {
-        println!("X: {} \t Y: {}", rng.gen::<Point>().0, rng.gen::<Point>().1);
+        println!("X: {:.4}    Y: {:.4}", rng.gen::<Point>().0, rng.gen::<Point>().1);
     }
 }
